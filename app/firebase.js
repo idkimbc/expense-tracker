@@ -6,7 +6,7 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyA91CyKMb9BVYaHuLmkxbH5q7Pwpt_43vU",
+  apiKey: "",
   authDomain: "expense-tracker-d400f.firebaseapp.com",
   projectId: "expense-tracker-d400f",
   storageBucket: "expense-tracker-d400f.appspot.com",
