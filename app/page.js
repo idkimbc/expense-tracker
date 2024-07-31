@@ -59,18 +59,18 @@ export default function Home() {
             <input 
               value={newItem.name}
               onChange={(e) => setNewItems({...newItem, name:e.target.value})}
-              className="col-span-3 p-3" 
+              className="col-span-3 p-3 rounded-lg" 
               type="text" 
               placeholder="Enter item"></input>
             <input
               value={newItem.price}
               onChange={(e) => setNewItems({...newItem, price:e.target.value})} 
-              className="col-span-2 ml-6 p-3" 
+              className="col-span-2 ml-6 p-3 rounded-lg" 
               type="number" 
               placeholder="Enter Price"></input>
             <button 
               onClick={addItem}
-              className="text-white text-center text-4xl bg-slate-950 p-2 ml-6 hover:bg-slate-900">+</button>
+              className="text-white rounded-lg text-center text-4xl bg-slate-950 p-2 ml-6 hover:bg-slate-900">+</button>
           </form>
           <ul>
             {items.map((item, id) => (
